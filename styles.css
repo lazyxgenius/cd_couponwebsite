@@ -1,34 +1,100 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f8f8f8;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
   }
   
   header {
-    background-color: #333;
+    background-color: #4CAF50;
     color: white;
-    padding: 10px 0;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2em;
   }
   
   main {
     padding: 20px;
   }
   
-  ul {
-    list-style-type: none;
-    padding: 0;
+  .coupons h2, .ads h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
   }
   
-  li {
+  .coupon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .coupon-card {
     background-color: white;
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 250px;
+    text-align: center;
   }
   
-  a {
+  .coupon-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .coupon-card h3 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .coupon-card p {
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .coupon-card a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
     text-decoration: none;
-    color: blue;
+    border-radius: 5px;
+  }
+  
+  .coupon-card a:hover {
+    background-color: #45a049;
+  }
+  
+  .ads {
+    margin-top: 40px;
+  }
+  
+  .ad-banner {
+    background-color: #f9f9f9;
+    border: 1px dashed #ccc;
+    padding: 40px;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
   }
   
